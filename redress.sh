@@ -5,17 +5,17 @@ if [ -z "$1" ]; then
   exit
 fi
 
-sed -i '' -e "s/template/${1}/g" README.md
+sed -i '' -e "s/firebase/${1}/g" README.md
 
 sed -i '' \
-    -e "s/template/${1}/g" \
-    -e "s/template\.ini/$1.ini/" \
+    -e "s/firebase/${1}/g" \
+    -e "s/firebase\.ini/$1.ini/" \
     test/index.js
 
-sed -i '' -e "s/template/${1}/g" package.json
+sed -i '' -e "s/firebase/${1}/g" package.json
 sed -i '' \
-    -e "s/_template/_${1}/g" \
-    -e "s/template\.ini/$1.ini/" \
+    -e "s/_firebase/_${1}/g" \
+    -e "s/firebase\.ini/$1.ini/" \
     index.js
 
 tee Changes.md <<EO_CHANGE
@@ -23,9 +23,9 @@ tee Changes.md <<EO_CHANGE
 
 - Initial release
 EO_CHANGE
-git mv config/template.ini "config/$1.ini"
+git mv config/firebase.ini "config/$1.ini"
 git add package.json Changes.md README.md index.js test config
-git commit -m "renamed template to $1"
+git commit -m "renamed firebase to $1"
 npm install
 npm run lint && npm test || exit 1
 git rm redress.sh

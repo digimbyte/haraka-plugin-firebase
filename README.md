@@ -3,11 +3,11 @@
 [![Code Climate][clim-img]][clim-url]
 [![NPM][npm-img]][npm-url]
 
-# haraka-plugin-template
+# haraka-plugin-firebase
 
 Clone me, to create a new Haraka plugin!
 
-# Template Instructions
+# firebase Instructions
 
 These instructions will not self-destruct after use. Use and destroy.
 
@@ -24,11 +24,11 @@ export MY_GITHUB_ORG=haraka
 export MY_PLUGIN_NAME=haraka-plugin-SOMETHING
 ```
 
-Clone and rename the template repo:
+Clone and rename the firebase repo:
 
 ```sh
-git clone git@github.com:haraka/haraka-plugin-template.git
-mv haraka-plugin-template $MY_PLUGIN_NAME
+git clone git@github.com:haraka/haraka-plugin-firebase.git
+mv haraka-plugin-firebase $MY_PLUGIN_NAME
 cd $MY_PLUGIN_NAME
 git remote rm origin
 git remote add origin "git@github.com:$MY_GITHUB_ORG/$MY_PLUGIN_NAME.git"
@@ -38,7 +38,7 @@ Now you'll have a local git repo to begin authoring your plugin
 
 ## rename boilerplate
 
-Replaces all uses of the word `template` with your plugin's name.
+Replaces all uses of the word `firebase` with your plugin's name.
 
 ./redress.sh [something]
 
@@ -51,8 +51,8 @@ You'll then be prompted to update package.json and then force push this repo ont
 
 ```sh
 cd /path/to/local/haraka
-npm install haraka-plugin-template
-echo "template" >> config/plugins
+npm install haraka-plugin-firebase
+echo "firebase" >> config/plugins
 service haraka restart
 ```
 
@@ -61,19 +61,19 @@ service haraka restart
 If the default configuration is not sufficient, copy the config file from the distribution into your haraka config dir and then modify it:
 
 ```sh
-cp node_modules/haraka-plugin-template/config/template.ini config/template.ini
-$EDITOR config/template.ini
+cp node_modules/haraka-plugin-firebase/config/firebase.ini config/firebase.ini
+$EDITOR config/firebase.ini
 ```
 
 ## USAGE
 
 
 <!-- leave these buried at the bottom of the document -->
-[ci-img]: https://github.com/haraka/haraka-plugin-template/workflows/Plugin%20Tests/badge.svg
-[ci-url]: https://github.com/haraka/haraka-plugin-template/actions?query=workflow%3A%22Plugin+Tests%22
-[ci-win-img]: https://github.com/haraka/haraka-plugin-template/workflows/Plugin%20Tests%20-%20Windows/badge.svg
-[ci-win-url]: https://github.com/haraka/haraka-plugin-template/actions?query=workflow%3A%22Plugin+Tests+-+Windows%22
-[clim-img]: https://codeclimate.com/github/haraka/haraka-plugin-template/badges/gpa.svg
-[clim-url]: https://codeclimate.com/github/haraka/haraka-plugin-template
-[npm-img]: https://nodei.co/npm/haraka-plugin-template.png
-[npm-url]: https://www.npmjs.com/package/haraka-plugin-template
+[ci-img]: https://github.com/haraka/haraka-plugin-firebase/workflows/Plugin%20Tests/badge.svg
+[ci-url]: https://github.com/haraka/haraka-plugin-firebase/actions?query=workflow%3A%22Plugin+Tests%22
+[ci-win-img]: https://github.com/haraka/haraka-plugin-firebase/workflows/Plugin%20Tests%20-%20Windows/badge.svg
+[ci-win-url]: https://github.com/haraka/haraka-plugin-firebase/actions?query=workflow%3A%22Plugin+Tests+-+Windows%22
+[clim-img]: https://codeclimate.com/github/haraka/haraka-plugin-firebase/badges/gpa.svg
+[clim-url]: https://codeclimate.com/github/haraka/haraka-plugin-firebase
+[npm-img]: https://nodei.co/npm/haraka-plugin-firebase.png
+[npm-url]: https://www.npmjs.com/package/haraka-plugin-firebase
