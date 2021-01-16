@@ -69,10 +69,10 @@ $EDITOR config/firebase.ini
 
 
 <!-- leave these buried at the bottom of the document -->
-[ci-img]: https://github.com/haraka/haraka-plugin-firebase/workflows/Plugin%20Tests/badge.svg
-[ci-url]: https://github.com/haraka/haraka-plugin-firebase/actions?query=workflow%3A%22Plugin+Tests%22
-[ci-win-img]: https://github.com/haraka/haraka-plugin-firebase/workflows/Plugin%20Tests%20-%20Windows/badge.svg
-[ci-win-url]: https://github.com/haraka/haraka-plugin-firebase/actions?query=workflow%3A%22Plugin+Tests+-+Windows%22
+[ci-img]: https://github.com/haraka/haraka-plugin-template/workflows/Plugin%20Tests/badge.svg
+[ci-url]: https://github.com/haraka/haraka-plugin-template/actions?query=workflow%3A%22Plugin+Tests%22
+[ci-win-img]: https://github.com/haraka/haraka-plugin-template/workflows/Plugin%20Tests%20-%20Windows/badge.svg
+[ci-win-url]: https://github.com/haraka/haraka-plugin-template/actions?query=workflow%3A%22Plugin+Tests+-+Windows%22
 [clim-img]: https://codeclimate.com/github/haraka/haraka-plugin-firebase/badges/gpa.svg
 [clim-url]: https://codeclimate.com/github/haraka/haraka-plugin-firebase
 [npm-img]: https://nodei.co/npm/haraka-plugin-firebase.png
