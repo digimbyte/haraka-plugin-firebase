@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haraka/haraka-plugin-firebase.git"
+    "url": "git+https://github.com/digimbyte/haraka-plugin-firebase.git"
   },
   "keywords": [
     "haraka",
@@ -22,9 +22,9 @@
   "author": "Welcome Member <happy-haraka-hacker@example.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haraka/haraka-plugin-firebase/issues"
+    "url": "https://github.com/digimbyte/haraka-plugin-firebase/issues"
   },
-  "homepage": "https://github.com/haraka/haraka-plugin-firebase#readme",
+  "homepage": "https://github.com/digimbyte/haraka-plugin-firebase#readme",
   "devDependencies": {
     "eslint": "*",
     "eslint-plugin-haraka": "*",
