@@ -73,7 +73,7 @@ $EDITOR config/firebase.ini
 [ci-url]: https://github.com/digimbyte/haraka-plugin-firebase/actions?query=workflow%3A%22Plugin+Tests%22
 [ci-win-img]: https://github.com/digimbyte/haraka-plugin-firebase/workflows/Plugin%20Tests%20-%20Windows/badge.svg
 [ci-win-url]: https://github.com/digimbyte/haraka-plugin-firebase/actions?query=workflow%3A%22Plugin+Tests+-+Windows%22
-[clim-img]: https://codeclimate.com/github/digimbyte/haraka-plugin-firebase/badges/gpa.svg
+[clim-img]: https://codeclimate.com/github/haraka/haraka-plugin-template/badges/gpa.svg
 [clim-url]: https://codeclimate.com/github/digimbyte/haraka-plugin-firebase
 [npm-img]: https://nodei.co/npm/haraka-plugin-firebase.png
 [npm-url]: https://www.npmjs.com/package/haraka-plugin-firebase
